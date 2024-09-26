@@ -53,7 +53,8 @@ const swiper = new Swiper(".products-price-swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
-
+  slidesPerView: 4,
+  spaceBetween: 20,
   // If we need pagination
   pagination: {
     el: ".swiper-pagination",

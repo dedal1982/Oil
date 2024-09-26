@@ -505,6 +505,9 @@ h2 span {
   max-width: 1380px;
   height: 463px;
   margin-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 .products-p-slide {
   display: flex;
@@ -601,4 +604,19 @@ h2 span {
   line-height: 19px;
   color: #fff;
   margin-top: 14px;
+}
+/*---пагинаторы---*/
+.p-prev,
+.p-next {
+  color: #ffb400;
+}
+.p-prev {
+  left: var(--swiper-navigation-sides-offset, -8px);
+}
+.p-next {
+  right: var(--swiper-navigation-sides-offset, -8px);
+}
+.p-prev::after,
+.p-next::after {
+  font-size: 20px;
 }
