@@ -126,6 +126,12 @@ button {
   line-height: 20px;
   color: #fff;
 }
+@media screen and (max-width: 960px) {
+  .promo__desc li {
+    font-size: 17px;
+    line-height: 17px;
+  }
+}
 @media screen and (max-width: 690px) {
   .promo__wrapper li {
     font-size: 14px;
@@ -164,6 +170,14 @@ button {
   line-height: 20px;
   width: 260px;
   height: 47px;
+}
+@media screen and (max-width: 960px) {
+  .promo__items-btn button {
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    line-height: 17px;
+  }
 }
 @media screen and (max-width: 690px) {
   .promo__items-btn button {
