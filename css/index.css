@@ -512,13 +512,13 @@ h2 span {
   width: 315px;
   height: 463px;
   position: relative;
-  padding: 29px 28px 30px 22px;
+  padding: 29px 17px 30px 22px;
   box-sizing: border-box;
   background: #ffffff;
   border: 1px solid #e5e5e5;
 }
 .products-p-slide-img {
-  width: 262px;
+  width: 100%;
   height: 262px;
   object-fit: cover;
 }
@@ -573,4 +573,32 @@ h2 span {
   height: 6px;
   border-radius: 50%;
   background: #69be15;
+}
+.p-item-price {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.p-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffb400;
+}
+.p-order {
+  width: 122px;
+  height: 40px;
+  border-radius: 4px;
+  background: #ffb400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #fff;
+  margin-top: 14px;
 }
