@@ -60,11 +60,39 @@ const swiper = new Swiper(".products-price-swiper", {
     el: ".swiper-pagination",
   },
   breakpoints: {
-    1000: {
-      slidesPerView: 4,
+    320: {
+      slidesPerView: 1,
       spaceBetween: 20,
     },
-    1440: {
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    425: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    500: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    769: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    },
+    835: {
+      slidesPerView: 3.3,
+      spaceBetween: 20,
+    },
+    1280: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1920: {
       slidesPerView: 4,
       spaceBetween: 20,
     },
