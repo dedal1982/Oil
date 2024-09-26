@@ -236,6 +236,7 @@ button {
 @media screen and (max-width: 960px) {
   .quality__wrapper {
     flex-direction: column;
+    gap: 40px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -317,13 +318,17 @@ button {
 }
 @media screen and (max-width: 1280px) {
   .quality__images {
-    margin-top: 40px;
+    margin-top: 45px;
   }
 }
 @media screen and (max-width: 960px) {
   .quality__images {
     align-items: center;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 690px) {
+  .quality__images {
     margin-top: 34px;
   }
 }
@@ -413,6 +418,11 @@ button {
 @media screen and (max-width: 1280px) {
   .quality__item {
     padding: 42px 13px 42px 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .quality__item {
+    margin: 0;
   }
 }
 .quality__item img {
