@@ -502,6 +502,6 @@ h2 span {
 }
 /*---products-price-swiper---*/
 .products-price-swiper {
-  width: 100%;
+  max-width: 1380px;
   height: 463px;
 }
