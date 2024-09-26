@@ -271,14 +271,14 @@ button {
     padding: 0;
   }
 }
-.quality__value h2 {
+h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 32px;
   color: #333333;
 }
-.quality__value h2 span {
+h2 span {
   color: #ffb400;
 }
 .quality__value p {
@@ -290,7 +290,7 @@ button {
   margin-top: 52px;
 }
 @media screen and (max-width: 1280px) {
-  .quality__value h2 {
+  h2 {
     font-size: 35px;
     line-height: 30px;
   }
@@ -301,7 +301,7 @@ button {
   }
 }
 @media screen and (max-width: 690px) {
-  .quality__value h2 {
+  h2 {
     font-size: 24px;
     line-height: 19.2px;
   }
@@ -467,4 +467,41 @@ button {
   .quality__item h4 {
     max-width: 270px;
   }
+}
+/*---products-price---*/
+.products-price {
+  width: 100%;
+  background: #f8f8f8;
+  display: flex;
+}
+.products-price__wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 30px;
+}
+.products-price__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.catalog-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffb400;
+  position: relative;
+}
+.catalog-link::after {
+  content: "❯";
+  width: 3px;
+  height: 6px;
+  color: #ffb400;
+  margin-left: 8px;
+}
+/*---products-price-swiper---*/
+.products-price-swiper {
+  width: 100%;
+  height: 463px;
 }
