@@ -59,7 +59,16 @@ const swiper = new Swiper(".products-price-swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
-
+  breakpoints: {
+    1000: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+  },
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
