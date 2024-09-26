@@ -57,11 +57,16 @@ button {
 }
 .promo__wrapper {
   width: 100%;
-  padding: 91px 0;
+  padding: 84px 0 91px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .promo__wrapper {
+    padding: 60px 0;
+  }
 }
 @media screen and (max-width: 690px) {
   .promo__wrapper {
@@ -73,28 +78,37 @@ button {
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: clamp(23px, 3vw, 48px);
+  font-size: 48px;
+  line-height: 48px;
   text-transform: uppercase;
   color: #fff;
 }
 @media screen and (max-width: 1324px) {
   .promo__wrapper h1 {
     max-width: 600px;
+    font-size: 45px;
+    line-height: 45px;
   }
 }
 @media screen and (max-width: 1200px) {
   .promo__wrapper h1 {
     max-width: 530px;
+    font-size: 41px;
+    line-height: 41px;
   }
 }
 @media screen and (max-width: 1024px) {
   .promo__wrapper h1 {
     max-width: 500px;
+    font-size: 39px;
+    line-height: 39px;
   }
 }
 @media screen and (max-width: 960px) {
   .promo__wrapper h1 {
     max-width: 400px;
+    font-size: 31px;
+    line-height: 31px;
   }
 }
 @media screen and (max-width: 690px) {
@@ -103,14 +117,19 @@ button {
     line-height: 24px;
   }
 }
-.promo__wrapper span {
+.promo__wrapper h1 span {
   color: #ffb400;
 }
 .promo__desc {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 19px;
   margin-top: 38px;
+}
+@media screen and (max-width: 1024px) {
+  .promo__desc {
+    gap: 12px;
+  }
 }
 @media screen and (max-width: 690px) {
   .promo__desc {
@@ -130,6 +149,12 @@ button {
   .promo__desc li {
     font-size: 17px;
     line-height: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo__desc li {
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 @media screen and (max-width: 690px) {
@@ -152,7 +177,7 @@ button {
   }
 }
 .promo__items-btn {
-  margin-top: 48px;
+  margin-top: 45px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -214,5 +239,13 @@ button {
   padding: 0 60px 60px 0;
   box-sizing: border-box;
 }
-.quality__value h1 {
+.quality__value h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: clamp(23px, 3vw, 40px);
+  line-height: 32px;
+  color: #333333;
+}
+.quality__value h2 span {
+  color: #ffb400;
 }
