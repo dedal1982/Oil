@@ -504,4 +504,73 @@ h2 span {
 .products-price-swiper {
   max-width: 1380px;
   height: 463px;
+  margin-top: 45px;
+}
+.products-p-slide {
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  height: 463px;
+  position: relative;
+  padding: 29px 28px 30px 22px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+.products-p-slide-img {
+  width: 262px;
+  height: 262px;
+  object-fit: cover;
+}
+.p-hit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38.25px;
+  height: 23px;
+  border-radius: 3px;
+  background: #ed673c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2px;
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 21px;
+}
+.p-fuel {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #999999;
+  margin-top: 14px;
+  margin-bottom: 2px;
+}
+.p-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333333;
+  white-space: nowrap;
+}
+.p-presence {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #69be15;
+  margin-top: 5px;
+}
+.p-presence span {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #69be15;
 }
