@@ -52,7 +52,7 @@
 const swiper = new Swiper(".products-price-swiper", {
   // Optional parameters
   direction: "horizontal",
-  loop: true,
+  loop: false,
   slidesPerView: 4,
   spaceBetween: 20,
   // If we need pagination
@@ -60,28 +60,32 @@ const swiper = new Swiper(".products-price-swiper", {
     el: ".swiper-pagination",
   },
   breakpoints: {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
     375: {
-      slidesPerView: 1,
+      slidesPerView: 1.2,
+      spaceBetween: 40,
+    },
+    690: {
+      slidesPerView: 2.2,
       spaceBetween: 20,
     },
-    425: {
-      slidesPerView: 1,
+    870: {
+      slidesPerView: 2.6,
       spaceBetween: 20,
     },
-    500: {
-      slidesPerView: 1,
+    960: {
+      slidesPerView: 2.8,
       spaceBetween: 20,
     },
-    768: {
+    1060: {
       slidesPerView: 3,
       spaceBetween: 20,
     },
-    1220: {
+    1160: {
       slidesPerView: 3.5,
+      spaceBetween: 20,
+    },
+    1260: {
+      slidesPerView: 3.8,
       spaceBetween: 20,
     },
     1360: {
