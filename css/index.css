@@ -47,26 +47,46 @@ button {
   background: url(../images/promo-main.png);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .promo {
+  }
 }
 .promo__wrapper {
-  max-width: 1440px;
   width: 100%;
-  padding: 91px 30px;
+  padding: 91px 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
 }
 .promo__wrapper h1 {
   max-width: 727px;
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: clamp(23px, 3vw, 48px);
   text-transform: uppercase;
   color: #fff;
+}
+@media screen and (max-width: 1324px) {
+  .promo__wrapper h1 {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .promo__wrapper h1 {
+    max-width: 530px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .promo__wrapper h1 {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .promo__wrapper h1 {
+    max-width: 400px;
+  }
 }
 .promo__wrapper span {
   color: #ffb400;
