@@ -47,6 +47,7 @@ button {
   background: url(../images/promo-main.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 @media screen and (max-width: 690px) {
   .promo {
@@ -242,10 +243,46 @@ button {
 .quality__value h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: clamp(23px, 3vw, 40px);
+  font-size: 40px;
   line-height: 32px;
   color: #333333;
 }
 .quality__value h2 span {
   color: #ffb400;
+}
+.quality__value p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin-top: 52px;
+}
+.quality__images {
+  display: flex;
+  gap: 29px;
+  margin-top: 56px;
+}
+.quality__icon {
+  width: 138px;
+  height: 124.91px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+.quality__img {
+  width: 433px;
+  height: 343px;
+  object-fit: cover;
+}
+.quality__list {
+  flex-basis: 50%;
+  max-height: 774px;
+  overflow: auto;
+}
+.quality__item {
+  background: #f3f3f3;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
