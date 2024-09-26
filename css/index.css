@@ -37,8 +37,8 @@ button {
 }
 @media screen and (max-width: 690px) {
   .container {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 /*---promo---*/
@@ -58,6 +58,11 @@ button {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 690px) {
+  .promo__wrapper {
+    padding: 40px 0;
+  }
 }
 .promo__wrapper h1 {
   max-width: 727px;
@@ -88,6 +93,12 @@ button {
     max-width: 400px;
   }
 }
+@media screen and (max-width: 690px) {
+  .promo__wrapper h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
 .promo__wrapper span {
   color: #ffb400;
 }
@@ -97,19 +108,38 @@ button {
   gap: 12px;
   margin-top: 38px;
 }
+@media screen and (max-width: 690px) {
+  .promo__desc {
+    gap: 10px;
+    margin-top: 35px;
+  }
+}
 .promo__desc li {
   display: flex;
-  align-items: center;
   gap: 12px;
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
   color: #fff;
 }
+@media screen and (max-width: 690px) {
+  .promo__wrapper li {
+    font-size: 14px;
+    line-height: 14px;
+    gap: 8px;
+  }
+}
 .promo__desc li img {
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
   object-fit: cover;
+}
+@media screen and (max-width: 690px) {
+  .promo__desc li img {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+  }
 }
 .promo__items-btn {
   margin-top: 48px;
