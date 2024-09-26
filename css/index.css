@@ -661,3 +661,54 @@ h2 span {
     display: none;
   }
 }
+/*---consultation---*/
+.consultation {
+  width: 100%;
+}
+.consultation__wrapper {
+  padding-top: 74px;
+  box-sizing: border-box;
+  display: flex;
+}
+.consultation__text {
+  max-width: 745px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+.consultation__text h2 {
+  line-height: 36px;
+}
+.consultation__desc {
+  max-width: 585px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.consultation__desc li img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+@media screen and (max-width: 690px) {
+  .consultation__desc li img {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+  }
+}
+.consultation__desc li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #333333;
+  display: flex;
+  gap: 12px;
+}
+.consultation__pic {
+  display: flex;
+  gap: 40px;
+}
