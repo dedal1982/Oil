@@ -48,8 +48,11 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 690px) {
   .promo {
+    background: url(../images/promo-main-mobil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 .promo__wrapper {
@@ -58,6 +61,7 @@ button {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 @media screen and (max-width: 690px) {
   .promo__wrapper {
@@ -147,6 +151,12 @@ button {
   align-items: center;
   gap: 20px;
 }
+@media screen and (max-width: 690px) {
+  .promo__items-btn {
+    flex-direction: column;
+    margin-top: 38px;
+  }
+}
 .promo__items-btn button {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -154,6 +164,14 @@ button {
   line-height: 20px;
   width: 260px;
   height: 47px;
+}
+@media screen and (max-width: 690px) {
+  .promo__items-btn button {
+    width: 185px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 .promo__btn-left {
   border-radius: 4px;
