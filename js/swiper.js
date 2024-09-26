@@ -77,24 +77,16 @@ const swiper = new Swiper(".products-price-swiper", {
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 20,
     },
-    769: {
-      slidesPerView: 2.5,
+    1220: {
+      slidesPerView: 3.5,
       spaceBetween: 20,
     },
-    835: {
-      slidesPerView: 3.3,
-      spaceBetween: 20,
-    },
-    1280: {
+    1360: {
       slidesPerView: 4,
       spaceBetween: 40,
-    },
-    1920: {
-      slidesPerView: 4,
-      spaceBetween: 20,
     },
   },
   // Navigation arrows

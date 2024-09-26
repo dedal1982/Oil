@@ -510,6 +510,12 @@ h2 span {
   padding-right: 40px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1360px) {
+  .products-price-swiper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .products-p-slide {
   display: flex;
   flex-direction: column;
@@ -620,4 +626,10 @@ h2 span {
 .p-prev::after,
 .p-next::after {
   font-size: 20px;
+}
+@media screen and (max-width: 1360px) {
+  .p-prev,
+  .p-next {
+    display: none;
+  }
 }
