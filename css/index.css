@@ -719,9 +719,10 @@ h2 span {
   position: absolute;
   top: -22px;
   left: -435px;
-  background: url(../images/consultation-img-bg.png);
+  /* background: url(../images/consultation-img-bg.png); */
   background-repeat: no-repeat;
   background-position: bottom;
+  z-index: -1;
 }
 .consultation__icon-1 {
   width: auto;
