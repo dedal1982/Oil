@@ -709,8 +709,18 @@ h2 span {
   gap: 12px;
 }
 .consultation__pic {
-  display: flex;
-  gap: 40px;
+  position: relative;
+  margin-left: auto;
+}
+.consultation__image {
+  width: 395px;
+  height: 409px;
+  position: absolute;
+  top: -22px;
+  left: -435px;
+  background: url(../images/consultation-img-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .consultation__form {
   width: 315px;
