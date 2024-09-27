@@ -670,6 +670,23 @@ h2 span {
   box-sizing: border-box;
   display: flex;
 }
+@media screen and (max-width: 1080px) {
+  .consultation__wrapper {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .consultation__wrapper {
+    flex-direction: column;
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .consultation__wrapper {
+    padding-top: 54px;
+    padding-bottom: 60px;
+  }
+}
 .consultation__text {
   position: relative;
   max-width: 745px;
@@ -681,6 +698,12 @@ h2 span {
 @media screen and (max-width: 1280px) {
   .consultation__text {
     max-width: 666px;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .consultation__text {
+    gap: 37px;
   }
 }
 .consultation__text h2 {
@@ -704,6 +727,12 @@ h2 span {
   flex-direction: column;
   gap: 16px;
 }
+@media screen and (max-width: 690px) {
+  .consultation__desc {
+    max-width: 300px;
+    gap: 15px;
+  }
+}
 .consultation__desc li img {
   width: 18px;
   height: 18px;
@@ -725,9 +754,26 @@ h2 span {
   display: flex;
   gap: 12px;
 }
+@media screen and (max-width: 960px) {
+  .consultation__desc li {
+    font-size: 15px;
+    line-height: 16.8px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .consultation__desc li {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}
 .consultation__pic {
   position: relative;
   margin-left: auto;
+}
+@media screen and (max-width: 767px) {
+  .consultation__pic {
+    margin: 0;
+  }
 }
 .consultation__image {
   width: 395px;
@@ -836,4 +882,27 @@ input:focus:-ms-input-placeholder {
   font-size: 16px;
   line-height: 19px;
   color: #fff;
+}
+@media screen and (max-width: 1080px) {
+  .consultation__form {
+    width: 344px;
+    padding: 24px 28px;
+  }
+  .consultation__form input {
+    height: 35px;
+  }
+  .consultation__form input::placeholder,
+  .consultation__form input {
+    font-size: 14px;
+  }
+  .consultation__form button {
+    height: 35px;
+    font-size: 14px;
+  }
+  .consultation__image {
+    display: block;
+    width: 344px;
+    height: 356.78px;
+    position: static;
+  }
 }
