@@ -671,6 +671,7 @@ h2 span {
   display: flex;
 }
 .consultation__text {
+  position: relative;
   max-width: 745px;
   width: 100%;
   display: flex;
@@ -721,6 +722,27 @@ h2 span {
   background: url(../images/consultation-img-bg.png);
   background-repeat: no-repeat;
   background-position: bottom;
+}
+.consultation__icon-1 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -8px;
+  left: -93px;
+}
+.consultation__icon-2 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 74px;
+  bottom: -53px;
+}
+.consultation__icon-3 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 135px;
+  bottom: -56px;
 }
 .consultation__form {
   width: 315px;
