@@ -678,8 +678,24 @@ h2 span {
   flex-direction: column;
   gap: 54px;
 }
+@media screen and (max-width: 1280px) {
+  .consultation__text {
+    max-width: 666px;
+  }
+}
 .consultation__text h2 {
   line-height: 36px;
+}
+@media screen and (max-width: 1280px) {
+  .consultation__text h2 {
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .consultation__text h2 {
+    font-size: 24px;
+    line-height: 21.6px;
+  }
 }
 .consultation__desc {
   max-width: 585px;
@@ -719,10 +735,12 @@ h2 span {
   position: absolute;
   top: -22px;
   left: -435px;
-  /* background: url(../images/consultation-img-bg.png); */
-  background-repeat: no-repeat;
-  background-position: bottom;
   z-index: -1;
+}
+@media screen and (max-width: 1370px) {
+  .consultation__image {
+    display: none;
+  }
 }
 .consultation__icon-1 {
   width: auto;
@@ -744,6 +762,18 @@ h2 span {
   position: absolute;
   right: 135px;
   bottom: -56px;
+}
+@media screen and (max-width: 1370px) {
+  .consultation__icon-3 {
+    right: 0;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .consultation__icon-1,
+  .consultation__icon-2,
+  .consultation__icon-3 {
+    display: none;
+  }
 }
 .consultation__form {
   width: 315px;
