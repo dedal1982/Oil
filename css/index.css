@@ -821,6 +821,31 @@ h2 span {
     display: none;
   }
 }
+@media screen and (max-width: 480px) {
+  .consultation__icon-1,
+  .consultation__icon-2,
+  .consultation__icon-3 {
+    display: block;
+  }
+  .consultation__icon-3 {
+    width: 56.88px;
+    height: 10.4px;
+    bottom: -86px;
+    left: -37px;
+  }
+  .consultation__icon-2 {
+    width: 75.03px;
+    height: 40.77px;
+    top: -11px;
+    left: 267px;
+  }
+  .consultation__icon-1 {
+    width: 23px;
+    height: 19px;
+    top: -215px;
+    left: 312px;
+  }
+}
 .consultation__form {
   width: 315px;
   height: fit-content;
