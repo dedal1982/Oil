@@ -1283,14 +1283,17 @@ input:focus:-ms-input-placeholder {
   width: 100%;
 }
 .about__wrapper {
+  position: relative;
   padding-top: 74px;
   padding-bottom: 80px;
   box-sizing: border-box;
   display: flex;
 }
+@media screen and (max-width: 690px) {
+  .about__wrapper {
+  }
+}
 .about__text {
-  max-width: 760px;
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -1324,18 +1327,95 @@ input:focus:-ms-input-placeholder {
   line-height: 22px;
   color: #333333;
   margin-bottom: 10px;
+  max-width: 674px;
+  width: 100%;
+}
+@media screen and (max-width: 1350px) {
+  .about__text p {
+    max-width: 500px;
+  }
 }
 @media screen and (max-width: 1280px) {
   .about__text p {
     font-size: 15px;
     line-height: 20px;
-    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .about__text p {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 690px) {
   .about__text p {
     font-size: 14px;
     line-height: 20px;
-    margin-top: 35px;
+  }
+}
+.about__items {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 44px;
+  height: 110px;
+}
+.about__item {
+  background: #333333;
+  border-radius: 6px;
+  padding: 16px 24px 24px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.about__experience {
+  width: 166px;
+}
+.about__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffb400;
+}
+.about__item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 3px;
+}
+.about__quantity {
+  width: 249px;
+}
+.about__supplies {
+  width: 274px;
+}
+.about__image {
+  width: 654px;
+  height: 476px;
+  position: absolute;
+  top: 81px;
+  right: -30px;
+}
+@media screen and (max-width: 1150px) {
+  .about__image {
+    width: 554px;
+    height: 376px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .about__image {
+    display: none;
+  }
+}
+.about__paragraphs {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1030px) {
+  .about__paragraphs {
+    flex-direction: row;
+    gap: 40px;
   }
 }
