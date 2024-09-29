@@ -115,3 +115,36 @@ const swiperlicenses = new Swiper(".licenses-swiper", {
     el: ".swiper-scrollbar",
   },
 });
+
+//car-park-swiper
+const swiperCarPark = new Swiper(".car-park-swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: false,
+  slidesPerView: 3,
+  spaceBetween: 20,
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  breakpoints: {
+    375: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1390: {
+      slidesPerView: 3,
+      spaceBetween: 18,
+    },
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});
