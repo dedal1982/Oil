@@ -1147,3 +1147,6 @@ input:focus:-ms-input-placeholder {
   left: 30px;
   bottom: 30px;
 }
+.industries__item-top {
+  margin-top: -4px;
+}
