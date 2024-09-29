@@ -1254,10 +1254,11 @@ input:focus:-ms-input-placeholder {
 }
 /*---licenses-swiper---*/
 .licenses-swiper {
+  max-width: 1380px;
   width: 100%;
   height: 306px;
-  padding-left: 30px;
-  padding-right: 19px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-sizing: border-box;
   margin-top: 48px;
 }
