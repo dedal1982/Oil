@@ -1204,6 +1204,7 @@ input:focus:-ms-input-placeholder {
 /*---licenses---*/
 .licenses {
   width: 100%;
+  background: #f8f8f8;
 }
 .licenses__wrapper {
   padding-top: 66px;
@@ -1212,12 +1213,44 @@ input:focus:-ms-input-placeholder {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .licenses__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .licenses__wrapper {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 690px) {
+  .licenses__wrapper {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+}
 .licenses__wrapper h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
   color: #333333;
+}
+@media screen and (max-width: 1280px) {
+  .licenses__wrapper h2 {
+    font-size: 44px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .licenses__wrapper h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .licenses__wrapper h2 {
+    font-size: 24px;
+  }
 }
 /*---licenses-swiper---*/
 .licenses-swiper {
@@ -1231,6 +1264,7 @@ input:focus:-ms-input-placeholder {
 @media screen and (max-width: 767px) {
   .licenses-swiper {
     width: 330px;
+    margin-top: 23px;
   }
 }
 .icenses__slide {
