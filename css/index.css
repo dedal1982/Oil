@@ -1593,3 +1593,14 @@ input:focus:-ms-input-placeholder {
   line-height: 19px;
   color: #ffffff;
 }
+/*---car-park---*/
+.car-park {
+  width: 100%;
+}
+.car-park__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
