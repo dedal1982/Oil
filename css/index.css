@@ -1130,7 +1130,7 @@ input:focus:-ms-input-placeholder {
 }
 .industries__item {
   position: relative;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
 }
 .industries__item img {
   width: 100%;
