@@ -1300,6 +1300,7 @@ input:focus:-ms-input-placeholder {
   font-size: 40px;
   line-height: 50px;
   color: #333333;
+  margin-bottom: 45px;
 }
 @media screen and (max-width: 1280px) {
   .about__text h2 {
@@ -1314,5 +1315,27 @@ input:focus:-ms-input-placeholder {
 @media screen and (max-width: 690px) {
   .about__text h2 {
     font-size: 24px;
+  }
+}
+.about__text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1280px) {
+  .about__text p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .about__text p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 35px;
   }
 }
