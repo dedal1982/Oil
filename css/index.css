@@ -1039,7 +1039,7 @@ input:focus:-ms-input-placeholder {
 @media screen and (max-width: 690px) {
   .benefit__item {
     height: auto;
-    padding: 20px;
+    padding: 20px 20px 30px;
   }
 }
 .benefit__item h4 {
