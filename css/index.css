@@ -950,6 +950,20 @@ input:focus:-ms-input-placeholder {
   flex-direction: column;
   max-width: 433px;
   width: 100%;
+  height: auto;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ffb400;
+}
+.benefit__title h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #333333;
+  max-width: 263px;
+  width: 100%;
+  margin-top: auto;
 }
 .benefit__inner {
   width: 100%;
@@ -995,8 +1009,11 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   align-self: flex-end;
 }
-.benefit__item-p {
+.benefit__item-one p {
   max-width: 273px;
+}
+.benefit__item-two p {
+  max-width: 305px;
 }
 @media screen and (max-width: 1280px) {
   .benefit__item h4 {
