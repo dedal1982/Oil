@@ -1091,3 +1091,23 @@ input:focus:-ms-input-placeholder {
     max-width: 400px;
   }
 }
+/*---industries---*/
+.industries {
+  width: 100%;
+}
+.industries__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .industries__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .industries__wrapper {
+  }
+}
