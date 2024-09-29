@@ -1506,3 +1506,18 @@ input:focus:-ms-input-placeholder {
     gap: 0;
   }
 }
+/*---proposal---*/
+.proposal {
+  width: 100%;
+  background: #333333;
+}
+.proposal__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.proposal__wrapper h2 {
+  color: #fff;
+}
