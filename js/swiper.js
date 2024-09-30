@@ -222,3 +222,53 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
     el: ".swiper-scrollbar",
   },
 });
+
+//contingent-swiper
+const contingentSwiper = new Swiper(".contingent-swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: false,
+  slidesPerView: 7,
+  spaceBetween: 21,
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  // breakpoints: {
+  //   375: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 30,
+  //   },
+  //   767: {
+  //     slidesPerView: 1.2,
+  //     spaceBetween: 30,
+  //   },
+  //   950: {
+  //     slidesPerView: 1.6,
+  //     spaceBetween: 30,
+  //   },
+  //   1105: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 30,
+  //   },
+  //   1260: {
+  //     slidesPerView: 2.3,
+  //     spaceBetween: 30,
+  //   },
+
+  //   1400: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 40,
+  //   },
+  // },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});

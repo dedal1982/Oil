@@ -1819,3 +1819,26 @@ input:focus:-ms-input-placeholder {
     margin-top: 18px;
   }
 }
+/*---clients-partners---*/
+.contingent {
+  width: 100%;
+}
+.contingent__wrapper {
+  padding-top: 76px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .contingent__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+/*---contingent-swiper---*/
+.contingent-swiper {
+  max-width: 1290px;
+  width: 100%;
+  height: 136px;
+}
