@@ -1929,6 +1929,10 @@ input:focus:-ms-input-placeholder {
     text-align: center;
   }
 }
+.contingent-prev::after,
+.contingent-next::after {
+  color: #ffb400;
+}
 /*---contingent-swiper---*/
 .contingent-swiper {
   max-width: 1380px;
