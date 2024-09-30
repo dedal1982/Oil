@@ -186,9 +186,26 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   },
   breakpoints: {
     375: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    767: {
+      slidesPerView: 1.2,
+      spaceBetween: 30,
+    },
+    950: {
+      slidesPerView: 1.6,
+      spaceBetween: 30,
+    },
+    1105: {
       slidesPerView: 2,
       spaceBetween: 30,
     },
+    1260: {
+      slidesPerView: 2.3,
+      spaceBetween: 30,
+    },
+
     1400: {
       slidesPerView: 2,
       spaceBetween: 40,
