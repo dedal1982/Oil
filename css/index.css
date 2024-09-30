@@ -1297,7 +1297,7 @@ input:focus:-ms-input-placeholder {
 @media screen and (max-width: 690px) {
   .licenses__wrapper {
     padding-top: 45px;
-    padding-bottom: 60px;
+    padding-bottom: 74px;
   }
 }
 .licenses__wrapper h2 {
@@ -1380,7 +1380,7 @@ input:focus:-ms-input-placeholder {
 }
 @media screen and (max-width: 690px) {
   .about__wrapper {
-    padding-top: 43px;
+    padding-top: 46px;
   }
 }
 .about__text {
@@ -1418,6 +1418,7 @@ input:focus:-ms-input-placeholder {
 @media screen and (max-width: 960px) {
   .about__text h2 {
     font-size: 40px;
+    line-height: 50px;
   }
 }
 @media screen and (max-width: 690px) {
