@@ -718,6 +718,13 @@ h2 span {
 .swiper-button-next::after {
   font-size: 20px;
 }
+.reviews-prev,
+.reviews-next {
+  top: -55px;
+}
+.reviews-btn-item {
+  bottom: -3px;
+}
 @media screen and (max-width: 690px) {
   .swiper-button-prev::after,
   .swiper-button-next::after {
@@ -1758,6 +1765,9 @@ input:focus:-ms-input-placeholder {
     padding-bottom: 60px;
   }
 }
+.reviews__top {
+  position: relative;
+}
 /*---reviews-swiper---*/
 .reviews-swiper {
   max-width: 1380px;
@@ -1797,19 +1807,23 @@ input:focus:-ms-input-placeholder {
     padding: 20px;
     gap: 20px;
   }
-  .reviews-prev,
-  .reviews-next {
-    display: none;
-  }
 }
 .reviews-top {
   display: flex;
   gap: 24px;
 }
+.reviews-prev::after,
+.reviews-next::after {
+  position: absolute;
+}
 @media screen and (max-width: 690px) {
   .reviews-top {
     align-items: center;
     gap: 20px;
+  }
+  .reviews-prev::after,
+  .reviews-next::after {
+    top: 83px;
   }
 }
 .reviews-top img {
