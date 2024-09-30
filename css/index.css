@@ -722,9 +722,7 @@ h2 span {
 .reviews-next {
   top: -55px;
 }
-.reviews-btn-item {
-  bottom: -3px;
-}
+
 @media screen and (max-width: 690px) {
   .swiper-button-prev::after,
   .swiper-button-next::after {
