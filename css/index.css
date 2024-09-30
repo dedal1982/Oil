@@ -17,7 +17,11 @@ button {
   cursor: pointer;
 }
 .btn-mobile-item {
+  width: 100%;
   position: absolute;
+  bottom: -274px;
+
+  /* position: absolute;
   right: 6px;
   top: -5px;
   width: 54px;
@@ -25,7 +29,19 @@ button {
   display: flex;
   align-items: center;
   border-radius: 4px;
-  background: #333333;
+  background: #333333; */
+}
+@media screen and (max-width: 690px) {
+  .btn-mobile-item {
+    width: 54px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background: #333333;
+    bottom: 32px;
+    right: 6px;
+  }
 }
 .btn-mobile-prev,
 .btn-mobile-next {
@@ -570,6 +586,7 @@ h2 span {
 @media screen and (max-width: 690px) {
   .products-price-swiper {
     margin-top: 39px;
+    overflow-y: visible;
   }
 }
 .products-p-slide {
@@ -684,9 +701,17 @@ h2 span {
 .swiper-button-next::after {
   font-size: 20px;
 }
-@media screen and (max-width: 1360px) {
-  .p-prev,
+@media screen and (max-width: 690px) {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 15px;
+    color: #fff;
+  }
+  .p-prev {
+    left: var(--swiper-navigation-sides-offset, 3px);
+  }
   .p-next {
+    right: var(--swiper-navigation-sides-offset, 3px);
   }
 }
 /*---consultation---*/

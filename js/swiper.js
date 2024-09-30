@@ -1,4 +1,4 @@
-const swiper = new Swiper(".products-price-swiper", {
+const swiperOne = new Swiper(".products-price-swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
@@ -44,8 +44,8 @@ const swiper = new Swiper(".products-price-swiper", {
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next btn-mobile-next",
-    prevEl: ".swiper-button-prev btn-mobile-prev",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 
   // And if we need scrollbar
