@@ -129,7 +129,31 @@ const swiperCarPark = new Swiper(".car-park-swiper", {
   },
   breakpoints: {
     375: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    },
+    767: {
+      slidesPerView: 2.2,
+      spaceBetween: 40,
+    },
+    870: {
+      slidesPerView: 2.6,
+      spaceBetween: 40,
+    },
+    960: {
       slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1030: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1110: {
+      slidesPerView: 2.4,
+      spaceBetween: 40,
+    },
+    1240: {
+      slidesPerView: 2.7,
       spaceBetween: 40,
     },
     1390: {
