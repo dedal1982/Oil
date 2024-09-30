@@ -229,38 +229,50 @@ const contingentSwiper = new Swiper(".contingent-swiper", {
   direction: "horizontal",
   loop: false,
   slidesPerView: 7,
-  spaceBetween: 21,
+  spaceBetween: 20,
   // If we need pagination
   pagination: {
     el: ".swiper-pagination",
   },
-  // breakpoints: {
-  //   375: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 30,
-  //   },
-  //   767: {
-  //     slidesPerView: 1.2,
-  //     spaceBetween: 30,
-  //   },
-  //   950: {
-  //     slidesPerView: 1.6,
-  //     spaceBetween: 30,
-  //   },
-  //   1105: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 30,
-  //   },
-  //   1260: {
-  //     slidesPerView: 2.3,
-  //     spaceBetween: 30,
-  //   },
+  breakpoints: {
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    767: {
+      slidesPerView: 3.5,
+      spaceBetween: 30,
+    },
+    797: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+    885: {
+      slidesPerView: 4.5,
+      spaceBetween: 30,
+    },
+    970: {
+      slidesPerView: 5,
+      spaceBetween: 30,
+    },
+    1080: {
+      slidesPerView: 5.5,
+      spaceBetween: 30,
+    },
+    11050: {
+      slidesPerView: 6,
+      spaceBetween: 30,
+    },
+    1260: {
+      slidesPerView: 6.5,
+      spaceBetween: 30,
+    },
 
-  //   1400: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 40,
-  //   },
-  // },
+    1400: {
+      slidesPerView: 7,
+      spaceBetween: 40,
+    },
+  },
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
