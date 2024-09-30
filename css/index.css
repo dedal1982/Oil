@@ -1658,3 +1658,14 @@ input:focus:-ms-input-placeholder {
     width: 298px;
   }
 }
+/*---reviews---*/
+.reviews {
+  width: 100%;
+}
+.reviews__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
