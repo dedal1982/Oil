@@ -1875,3 +1875,34 @@ input:focus:-ms-input-placeholder {
     margin: 0 auto;
   }
 }
+/*---contingent__answer---*/
+.contingent__answer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.answer-crumbs {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #999999;
+}
+.contingent__answer-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 19px;
+  padding-right: 4px;
+  box-sizing: border-box;
+}
+.answer-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
