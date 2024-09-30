@@ -574,19 +574,18 @@ h2 span {
   height: 463px;
   margin-top: 45px;
   padding-left: 20px;
-  padding-right: 30px;
+  padding-right: 40px;
   box-sizing: border-box;
 }
-/* @media screen and (max-width: 1360px) {
+@media screen and (max-width: 1360px) {
   .products-price-swiper {
     padding-left: 0;
     padding-right: 0;
   }
-} */
+}
 @media screen and (max-width: 690px) {
   .products-price-swiper {
     margin-top: 39px;
-    overflow-y: visible;
   }
 }
 .products-p-slide {
