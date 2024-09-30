@@ -187,11 +187,11 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   breakpoints: {
     375: {
       slidesPerView: 2,
-      spaceBetween: 40,
+      spaceBetween: 30,
     },
     1400: {
       slidesPerView: 2,
-      spaceBetween: 18,
+      spaceBetween: 40,
     },
   },
   // Navigation arrows
