@@ -16,6 +16,32 @@ button {
   border: none;
   cursor: pointer;
 }
+.btn-mobile-item {
+  position: absolute;
+  right: 6px;
+  top: -5px;
+  width: 54px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background: #333333;
+}
+.btn-mobile-prev,
+.btn-mobile-next {
+  position: relative;
+  flex-basis: 50%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-mobile-prev img,
+.btn-mobile-next img {
+  width: 8px;
+  height: 16px;
+}
 .page {
   width: 100%;
   margin: 0 auto;
@@ -495,6 +521,7 @@ h2 span {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  position: relative;
 }
 @media screen and (max-width: 690px) {
   .products-price__top {
@@ -520,6 +547,9 @@ h2 span {
   .catalog-link {
     font-size: 14px;
     line-height: 21px;
+  }
+  .catalog-link::after {
+    font-size: 10px;
   }
 }
 /*---products-price-swiper---*/
@@ -657,7 +687,6 @@ h2 span {
 @media screen and (max-width: 1360px) {
   .p-prev,
   .p-next {
-    display: none;
   }
 }
 /*---consultation---*/

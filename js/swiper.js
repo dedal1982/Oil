@@ -44,8 +44,8 @@ const swiper = new Swiper(".products-price-swiper", {
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next btn-mobile-next",
+    prevEl: ".swiper-button-prev btn-mobile-prev",
   },
 
   // And if we need scrollbar
